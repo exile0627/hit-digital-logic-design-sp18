@@ -1,0 +1,120 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port cp -pg 1 -y 340 -defaultsOSRD
+preplace port S0 -pg 1 -y 10 -defaultsOSRD
+preplace port shieng -pg 1 -y 570 -defaultsOSRD
+preplace port S1 -pg 1 -y 30 -defaultsOSRD
+preplace portBus z1 -pg 1 -y 120 -defaultsOSRD
+preplace portBus z2 -pg 1 -y 240 -defaultsOSRD
+preplace portBus z3 -pg 1 -y 360 -defaultsOSRD
+preplace portBus y1 -pg 1 -y 0 -defaultsOSRD
+preplace portBus y2 -pg 1 -y -120 -defaultsOSRD
+preplace portBus y3 -pg 1 -y -240 -defaultsOSRD
+preplace portBus S2 -pg 1 -y 200 -defaultsOSRD
+preplace inst util_vector_logic_34 -pg 1 -lvl 4 -y -1260 -defaultsOSRD
+preplace inst util_vector_logic_28 -pg 1 -lvl 8 -y -540 -defaultsOSRD
+preplace inst util_vector_logic_8 -pg 1 -lvl 9 -y -80 -defaultsOSRD
+preplace inst util_vector_logic_35 -pg 1 -lvl 4 -y -1140 -defaultsOSRD
+preplace inst util_vector_logic_29 -pg 1 -lvl 8 -y -420 -defaultsOSRD
+preplace inst decoder_0 -pg 1 -lvl 3 -y 140 -defaultsOSRD
+preplace inst util_vector_logic_10 -pg 1 -lvl 10 -y 240 -defaultsOSRD
+preplace inst util_vector_logic_9 -pg 1 -lvl 10 -y 120 -defaultsOSRD
+preplace inst util_vector_logic_36 -pg 1 -lvl 6 -y -860 -defaultsOSRD
+preplace inst util_vector_logic_11 -pg 1 -lvl 10 -y 360 -defaultsOSRD
+preplace inst util_vector_logic_37 -pg 1 -lvl 6 -y -660 -defaultsOSRD
+preplace inst util_vector_logic_12 -pg 1 -lvl 8 -y 440 -defaultsOSRD
+preplace inst util_vector_logic_13 -pg 1 -lvl 9 -y 30 -defaultsOSRD
+preplace inst util_vector_logic_20 -pg 1 -lvl 2 -y -1180 -defaultsOSRD
+preplace inst two_three_0 -pg 1 -lvl 8 -y -60 -defaultsOSRD -resize 170 182
+preplace inst util_vector_logic_14 -pg 1 -lvl 9 -y 150 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 9 -y -580 -defaultsOSRD
+preplace inst util_vector_logic_21 -pg 1 -lvl 2 -y -1060 -defaultsOSRD
+preplace inst two_three_1 -pg 1 -lvl 8 -y 160 -defaultsOSRD -resize 152 204
+preplace inst util_vector_logic_15 -pg 1 -lvl 9 -y 270 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 9 -y -480 -defaultsOSRD
+preplace inst util_vector_logic_22 -pg 1 -lvl 5 -y -780 -defaultsOSRD
+preplace inst util_vector_logic_16 -pg 1 -lvl 9 -y 390 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 9 -y -380 -defaultsOSRD
+preplace inst util_vector_logic_23 -pg 1 -lvl 5 -y -630 -defaultsOSRD
+preplace inst util_vector_logic_17 -pg 1 -lvl 9 -y 510 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 10 -y -240 -defaultsOSRD
+preplace inst util_vector_logic_30 -pg 1 -lvl 8 -y -300 -defaultsOSRD
+preplace inst util_vector_logic_24 -pg 1 -lvl 7 -y -180 -defaultsOSRD
+preplace inst util_vector_logic_4 -pg 1 -lvl 10 -y -120 -defaultsOSRD
+preplace inst util_vector_logic_18 -pg 1 -lvl 9 -y 630 -defaultsOSRD
+preplace inst util_vector_logic_19 -pg 1 -lvl 2 -y -1300 -defaultsOSRD
+preplace inst util_vector_logic_31 -pg 1 -lvl 1 -y -900 -defaultsOSRD
+preplace inst util_vector_logic_25 -pg 1 -lvl 8 -y -920 -defaultsOSRD
+preplace inst Clock_0 -pg 1 -lvl 2 -y 380 -defaultsOSRD
+preplace inst util_vector_logic_5 -pg 1 -lvl 10 -y 0 -defaultsOSRD
+preplace inst util_vector_logic_32 -pg 1 -lvl 4 -y -580 -defaultsOSRD
+preplace inst util_vector_logic_26 -pg 1 -lvl 8 -y -800 -defaultsOSRD
+preplace inst counter_1 -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst util_vector_logic_6 -pg 1 -lvl 9 -y -280 -defaultsOSRD
+preplace inst util_vector_logic_33 -pg 1 -lvl 4 -y -1380 -defaultsOSRD
+preplace inst util_vector_logic_27 -pg 1 -lvl 8 -y -660 -defaultsOSRD
+preplace inst util_vector_logic_7 -pg 1 -lvl 9 -y -180 -defaultsOSRD
+preplace netloc util_vector_logic_36_Res 1 6 5 340J -1030 NJ -1030 NJ -1030 NJ -1030 1850
+preplace netloc util_vector_logic_35_Res 1 4 7 NJ -1140 NJ -1140 NJ -1140 NJ -1140 NJ -1140 NJ -1140 1830
+preplace netloc util_vector_logic_20_Res 1 2 2 -790 -1270 NJ
+preplace netloc decoder_0_d2 1 3 5 -590 100 N 100 N 100 N 100 N
+preplace netloc two_three_1_d2 1 8 1 1090
+preplace netloc util_vector_logic_25_Res 1 5 4 40 -1040 NJ -1040 NJ -1040 1000
+preplace netloc util_vector_logic_19_Res 1 2 2 -790 -1390 NJ
+preplace netloc util_vector_logic_26_Res 1 8 3 NJ -800 NJ -800 1840
+preplace netloc counter_1_Q0 1 3 5 NJ 650 N 650 N 650 N 650 670
+preplace netloc decoder_0_d3 1 3 5 N 140 N 140 N 140 N 140 650
+preplace netloc util_vector_logic_18_Res 1 9 1 1480
+preplace netloc decoder_0_d4 1 3 4 -610 -180 N -180 N -180 N
+preplace netloc counter_1_Q1 1 3 5 N 670 N 670 N 670 N 670 680
+preplace netloc util_vector_logic_13_Res 1 9 1 1410
+preplace netloc util_vector_logic_8_Res 1 9 1 1400
+preplace netloc util_vector_logic_28_Res 1 3 6 -630 -1070 NJ -1070 NJ -1070 NJ -1070 NJ -1070 1020
+preplace netloc decoder_0_d5 1 0 4 -1420 -960 NJ -960 NJ -960 -630
+preplace netloc util_vector_logic_11_Res 1 7 4 700 710 NJ 710 NJ 710 1780
+preplace netloc util_vector_logic_10_Res 1 7 4 690 700 NJ 700 NJ 700 1790
+preplace netloc util_vector_logic_4_Res 1 7 4 680 -1010 NJ -1010 NJ -1010 1800
+preplace netloc util_vector_logic_3_Res 1 7 4 670 -1080 NJ -1080 NJ -1080 1810
+preplace netloc util_vector_logic_6_Res 1 9 1 1440
+preplace netloc util_vector_logic_33_Res 1 4 2 NJ -1380 30
+preplace netloc decoder_0_d6 1 3 1 -620
+preplace netloc two_three_0_d0 1 8 1 1040
+preplace netloc fp_even_0_clk_out 1 1 8 -1110 -950 -800 -950 N -950 -290 -990 N -990 N -990 N -990 1070
+preplace netloc util_vector_logic_0_Res 1 9 1 1470
+preplace netloc util_vector_logic_22_Res 1 5 1 20
+preplace netloc util_vector_logic_29_Res 1 3 6 -620 -1060 NJ -1060 NJ -1060 NJ -1060 650J -1050 1010
+preplace netloc util_vector_logic_9_Res 1 7 4 700 -730 NJ -730 NJ -730 1780
+preplace netloc util_vector_logic_27_Res 1 8 3 NJ -660 NJ -660 1820
+preplace netloc util_vector_logic_24_Res 1 7 1 660
+preplace netloc two_three_0_d1 1 8 1 1050
+preplace netloc util_vector_logic_16_Res 1 9 1 1460
+preplace netloc two_three_0_d2 1 8 1 1060
+preplace netloc util_vector_logic_32_Res 1 4 1 -280
+preplace netloc util_vector_logic_31_Res 1 1 1 -1120
+preplace netloc cp_1 1 0 2 N 340 -1110
+preplace netloc util_vector_logic_37_Res 1 6 5 350J -1020 NJ -1020 NJ -1020 NJ -1020 1870
+preplace netloc util_vector_logic_23_Res 1 5 1 30
+preplace netloc util_vector_logic_34_Res 1 4 7 NJ -1260 NJ -1260 NJ -1260 NJ -1260 NJ -1260 NJ -1260 1860
+preplace netloc shieng_0_1 1 0 3 N 570 N 570 -810
+preplace netloc util_vector_logic_15_Res 1 9 1 1450
+preplace netloc util_vector_logic_14_Res 1 9 1 1430
+preplace netloc S1_0_1 1 0 3 N 30 N 30 -810
+preplace netloc util_vector_logic_17_Res 1 9 1 1470
+preplace netloc util_vector_logic_2_Res 1 9 1 1450
+preplace netloc util_vector_logic_1_Res 1 9 1 1460
+preplace netloc util_vector_logic_21_Res 1 2 2 -790 -1150 NJ
+preplace netloc util_vector_logic_30_Res 1 3 6 -600 -1050 NJ -1050 NJ -1050 NJ -1050 660J -1060 1030
+preplace netloc util_vector_logic_5_Res 1 7 4 690 -1000 NJ -1000 NJ -1000 1790
+preplace netloc two_three_1_d0 1 8 1 1080
+preplace netloc Ea_1 1 0 3 NJ 200 N 200 -790
+preplace netloc S0_0_1 1 0 3 N 10 N 10 -790
+preplace netloc decoder_0_d1 1 3 5 -600 -110 N -110 N -110 N -110 N
+preplace netloc two_three_1_d1 1 8 1 1030
+preplace netloc util_vector_logic_12_Res 1 8 1 1100
+preplace netloc util_vector_logic_7_Res 1 9 1 1420
+levelinfo -pg 1 -1440 -1270 -960 -710 -440 -130 190 500 850 1250 1630 1890 -top -1660 -bot 820
+",
+}
+0

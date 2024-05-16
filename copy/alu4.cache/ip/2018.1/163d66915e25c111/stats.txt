@@ -1,0 +1,3 @@
+NumberHits:56
+Timestamp: Sat Jun 16 16:58:04 UTC 2018
+VLNV: xilinx.com:ip:util_vector_logic:2.0

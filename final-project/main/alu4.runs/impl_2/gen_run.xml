@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a35tcsg324-3" LaunchTime="1529498867">
+  <File Type="PA-DCP" Name="whole_wrapper.dcp"/>
+  <File Type="OPT-DCP" Name="whole_wrapper_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="whole_wrapper.hwdef"/>
+  <File Type="ROUTE-PWR" Name="whole_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="whole_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="whole_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="whole_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="whole_wrapper.drc"/>
+  <File Type="OPT-DRC" Name="whole_wrapper_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="whole_wrapper_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="whole_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="whole_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="whole_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="whole_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="whole_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="whole_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="whole_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="whole_wrapper_physopt.dcp"/>
+  <File Type="BG-BIT" Name="whole_wrapper.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="whole_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="whole_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="whole_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="whole_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="whole_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="whole_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="whole_wrapper.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="whole_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="whole_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="whole_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="whole_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="whole_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="whole_wrapper.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="whole_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="whole_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="whole_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="whole_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="whole_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="whole_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="whole_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="whole_wrapper.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="whole_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="whole_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="whole_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="whole_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="whole_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="whole_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="whole_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/whole/whole.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/whole/hdl/whole_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../users/think/desktop/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="whole_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/new.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/new.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_5_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_6_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_11_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_13_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_13_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_13_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_5_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_13_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_util_vector_logic_13_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="whole_Clock_0_0"/>
+</GenRun>

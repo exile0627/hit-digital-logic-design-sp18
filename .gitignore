@@ -1,0 +1,8 @@
+.DS_Store
+final-project/汽车尾灯控制器设计报告.rtf
+*.log
+*.jou
+*.vds
+.rlx
+final-project/main/alu4.sim/sim_1/*
+*.mp4

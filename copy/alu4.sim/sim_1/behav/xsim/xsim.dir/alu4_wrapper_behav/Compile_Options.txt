@@ -1,0 +1,1 @@
+-wto "b2926f5b82224e7b89b10edecfc0e0c7" --incr --debug "typical" --relax --mt "2" -L "util_vector_logic_v2_0_1" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "alu4_wrapper_behav" "xil_defaultlib.alu4_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

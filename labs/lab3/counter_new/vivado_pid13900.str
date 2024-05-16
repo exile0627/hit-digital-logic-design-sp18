@@ -1,0 +1,518 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 13900
+License: Customer
+
+Current time: 	5/29/18 8:52:49 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 29 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: D:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;D:/Xilinx/Vivado/2017.2/bin;D:/Xilinx/Vivado/2017.2/lib/win64.o;D:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;D:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;D:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;D:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;D:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files/Java/jdk-9.0.4/bin;C:/ProgramData/Oracle/Java/javapath;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Common Files/lenovo/easyplussdk/bin;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files/Intel/WiFi/bin/;C:/Program Files/Common Files/Intel/WirelessCommon/;C:/Users/admin/AppData/Local/Microsoft/WindowsApps;;D:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;D:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	admin
+User home directory: C:/Users/admin
+User working directory: C:/Users/admin/Desktop/counter_new
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.2
+RDI_DATADIR: D:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/admin/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	D:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/admin/Desktop/counter_new/.Xil/Vivado-13900-LAPTOP-8U2234JB
+
+GUI allocated memory:	182 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 602 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 52 MB (+52523kb) [00:00:05]
+// [Engine Memory]: 456 MB (+327174kb) [00:00:05]
+// Opening Vivado Project: C:\Users\admin\Desktop\counter_new\counter_new.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/admin/Desktop/counter_new/counter_new.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/admin/Desktop/counter_new/counter_new.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 582 MB (+107858kb) [00:00:07]
+// [GUI Memory]: 58 MB (+3097kb) [00:00:08]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.2/data/ip'. 
+// Project name: counter_new; location: C:/Users/admin/Desktop/counter_new; part: xc7a35tcsg324-3
+// HMemoryUtils.trashcanNow. Engine heap size: 607 MB. GUI used memory: 37 MB. Current time: 5/29/18 8:52:50 PM CST
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 611 MB (+43kb) [00:00:15]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, countersim (sim.v)]", 5, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// PAPropertyPanels.initPanels (sim.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, countersim (sim.v)]", 5, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, countersim (sim.v)]", 5, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, countersim (sim.v)]", 5, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u:M (JViewport:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e:bs (cg:JFrame):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'countersim' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/admin/Desktop/counter_new/counter_new.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/Desktop/counter_new/counter_new.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot countersim_behav 
+// Tcl Message:  ****** Webtalk v2017.2 (64-bit)   **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017   **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source C:/Users/admin/Desktop/counter_new/counter_new.sim/sim_1/behav/xsim.dir/countersim_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// [GUI Memory]: 62 MB (+1082kb) [00:00:36]
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/admin/Desktop/counter_new/counter_new.sim/sim_1/behav/xsim.dir/countersim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue May 29 20:53:16 2018. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 61.379 ; gain = 1.164 INFO: [Common 17-206] Exiting Webtalk at Tue May 29 20:53:16 2018... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 844.469 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/Desktop/counter_new/counter_new.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "countersim_behav -key {Behavioral:sim_1:Functional:countersim} -tclbatch {countersim.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [GUI Memory]: 67 MB (+2179kb) [00:00:38]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [GUI Memory]: 72 MB (+1272kb) [00:00:38]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source countersim.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 47 MB. Current time: 5/29/18 8:53:19 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'countersim_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 844.469 ; gain = 0.000 
+// 'd' command handler elapsed time: 17 seconds
+// Elapsed time: 17 seconds
+dismissDialog("Run Simulation"); // e:bs (cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 44 MB. Current time: 5/29/18 8:53:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 44 MB. Current time: 5/29/18 8:53:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B:JideButton (f:CommandBar, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 49 MB. Current time: 5/29/18 8:53:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 46 MB. Current time: 5/29/18 8:53:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 622 MB. GUI used memory: 46 MB. Current time: 5/29/18 8:53:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 44 MB. Current time: 5/29/18 8:53:28 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B:JideButton (f:CommandBar, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 44 MB. Current time: 5/29/18 8:53:28 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 43, 159); // n:a (JViewport:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // M:a (Workspace:JPanel, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 46 MB. Current time: 5/29/18 8:53:33 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 85, 150); // n:a (JViewport:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 156, 151); // n:a (JViewport:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 225, 151); // n:a (JViewport:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 52 MB. Current time: 5/29/18 8:53:38 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 271, 151); // n:a (JViewport:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [GUI Memory]: 76 MB (+517kb) [00:01:04]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sim.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax:DockableFrame
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+unMinimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // ax:DockableFrame
+// [GUI Memory]: 82 MB (+2453kb) [00:01:17]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:p (cg:JFrame): Launch Runs: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Tue May 29 20:54:00 2018] Launched synth_1... Run output will be captured here: C:/Users/admin/Desktop/counter_new/counter_new.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// [GUI Memory]: 87 MB (+504kb) [00:01:43]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// [Engine Memory]: 647 MB (+5395kb) [00:01:48]
+// Elapsed time: 31 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcsg324-3 
+// [Engine Memory]: 754 MB (+78641kb) [00:01:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 812 MB. GUI used memory: 47 MB. Current time: 5/29/18 8:54:40 PM CST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 861 MB. GUI used memory: 46 MB. Current time: 5/29/18 8:54:41 PM CST
+// [Engine Memory]: 868 MB (+79619kb) [00:02:00]
+// [Engine Memory]: 916 MB (+4485kb) [00:02:00]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 966 MB (+4695kb) [00:02:02]
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Device 21-403] Loading part xc7a35tcsg324-3 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1165.469 ; gain = 309.707 
+// [GUI Memory]: 92 MB (+1432kb) [00:02:03]
+// 'dH' command handler elapsed time: 9 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Open Synthesized Design"); // bs:g (cg:JFrame)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (9) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Scalar ports (9)", 0, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (9) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Scalar ports (9)", 0, true, false, false, false, false, true); // E:af (JViewport:JComponent, cg:JFrame) - Double Click - Node
+// [Engine Memory]: 1,020 MB (+6031kb) [00:02:09]
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clk ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 2, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (clk) elapsed time: 0.5s
+maximizeFrame(PAResourceOtoP.PAViews_IO_PORTS, "I/O Ports"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "j1 ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 3, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list j1]] 
+// [Engine Memory]: 1,117 MB (+48367kb) [00:02:17]
+// [GUI Memory]: 105 MB (+8387kb) [00:02:17]
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "r ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 5, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// RouteApi::initDelayMediator elapsed time: 15.7s
+// [Engine Memory]: 1,383 MB (+219581kb) [00:02:18]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list r]] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,383 MB. GUI used memory: 80 MB. Current time: 5/29/18 8:55:00 PM CST
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "k1 ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 4, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list k1]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clk ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 2, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list clk]] 
+// [GUI Memory]: 116 MB (+6123kb) [00:02:26]
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "s ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 6, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list s]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y1 ; OUT ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 7, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list y1]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y2 ; OUT ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 8, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list y2]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y3 ; OUT ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list y3]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y4 ; OUT ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 10, "default (LVCMOS18)", 6, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: SIGNAL_MODIFY
+// [GUI Memory]: 126 MB (+4656kb) [00:02:44]
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list y4]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clk ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 2, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports clk R1 
+// Elapsed time: 15 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "j1 ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 3, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports j1 P5 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,404 MB. GUI used memory: 78 MB. Current time: 5/29/18 8:56:00 PM CST
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "k1 ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 4, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports k1 P4 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "r ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 5, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports r P3 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "s ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 6, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports s P2 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y1 ; OUT ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 7, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports y1 F6 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y2 ; OUT ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 8, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports y2 G4 
+// Elapsed time: 42 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y3 ; OUT ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+selectButton("OptionPane.button", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y2 ; OUT ;  ; G4 ; true ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 8, "G4", 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports y2 G3 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y3 ; OUT ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports y3 G4 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y1 ; OUT ;  ; F6 ; true ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 7, "F6", 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports y1 J4 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y4 ; OUT ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 10, (String) null, 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports y4 F6 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,431 MB. GUI used memory: 80 MB. Current time: 5/29/18 8:58:00 PM CST
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x:aN (cg:JFrame): Out of Date Design: addNotify
+// Elapsed time: 15 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, x:aN): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:aN)
+// a:p (cg:JFrame): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // x:aN (cg:JFrame)
+// Elapsed time: 12 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "counter_xdc", true); // X:JTextField (JPanel:JComponent, a:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+// Tcl Message: file mkdir C:/Users/admin/Desktop/counter_new/counter_new.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/Users/admin/Desktop/counter_new/counter_new.srcs/constrs_1/new/counter_xdc.xdc w ] 
+// Tcl Message: add_files -fileset constrs_1 C:/Users/admin/Desktop/counter_new/counter_new.srcs/constrs_1/new/counter_xdc.xdc 
+// Tcl Message: set_property target_constrs_file C:/Users/admin/Desktop/counter_new/counter_new.srcs/constrs_1/new/counter_xdc.xdc [current_fileset -constrset] 
+// TclEventType: DESIGN_SAVE
+dismissDialog("Save Constraints"); // a:p (cg:JFrame)
+// Tcl Message: save_constraints -force 
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Save Constraints"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x:aN (cg:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x:aN (cg:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "4", 3); // e:JComboBox (ao:JPanel, f:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// 'cp' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bs:g (cg:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue May 29 20:58:27 2018] Launched synth_1... Run output will be captured here: C:/Users/admin/Desktop/counter_new/counter_new.runs/synth_1/runme.log [Tue May 29 20:58:27 2018] Launched impl_1... Run output will be captured here: C:/Users/admin/Desktop/counter_new/counter_new.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Implementation Failed: addNotify
+// Elapsed time: 80 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:x (cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF] >. . 	clk_IBUF_inst (IBUF.O) is locked to IOB_X1Y16. 	 and clk_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_IBUF] >. . 	clk_IBUF_inst (IBUF.O) is locked to IOB_X1Y16. 	 and clk_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-99] Placer failed with error: 'IO Clock Placer failed'. Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.. ]", 3, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g:JCheckBox (JPanel:JComponent, cg:JFrame): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, launch_runs impl_1 -to_step write_bitstream -jobs 4. ]", 3, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, launch_runs impl_1 -to_step write_bitstream -jobs 4. ]", 3, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cg:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, launch_runs impl_1 -to_step write_bitstream -jobs 4. ]", 3, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, launch_runs impl_1 -to_step write_bitstream -jobs 4. ]", 3, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cg:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (u1/qn_reg) is unused and will be removed from module counter.. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (u1/qn_reg) is unused and will be removed from module counter.. ]", 1, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cg:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (u1/qn_reg) is unused and will be removed from module counter.. , [Synth 8-3332] Sequential element (u2/qn_reg) is unused and will be removed from module counter.. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (u1/qn_reg) is unused and will be removed from module counter.. , [Synth 8-3332] Sequential element (u2/qn_reg) is unused and will be removed from module counter.. ]", 2, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cg:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (u1/qn_reg) is unused and will be removed from module counter.. , [Synth 8-3332] Sequential element (u3/qn_reg) is unused and will be removed from module counter.. ]", 3, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (u1/qn_reg) is unused and will be removed from module counter.. , [Synth 8-3332] Sequential element (u3/qn_reg) is unused and will be removed from module counter.. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 20 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, cg:JFrame)
+closeTask("Synthesis", "Synthesized Design", "DesignTask.NETLIST_PLANNING");
+// x:aN (cg:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, x:aN)
+dismissDialog("Confirm Close"); // x:aN (cg:JFrame)
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "project_summary"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("counter.v", 129, 171); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 157, 163); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 208, 171); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 202, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 69, 244); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 103, 244); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 115, 236); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 116, 235, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("counter.v", 132, 231); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 145, 232); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 186, 235); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("counter.v", 62, 238); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 86, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 117, 257); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 147, 252); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("counter.v", 186, 262); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sim.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "3 errors"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// [GUI Memory]: 133 MB (+8kb) [00:09:09]
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clk ; IN ;  ; R1 ; true ; 34 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 2, "R1", 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (9) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Scalar ports (9)", 0, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clk ; IN ;  ; R1 ; true ; 34 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 2, "R1", 3, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports clk P17 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// x:aN (cg:JFrame): Out of Date Design: addNotify
+// Elapsed time: 10 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, x:aN): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x:aN (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints -force 
+dismissDialog("Save Constraints"); // bs:g (cg:JFrame)
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x:aN (cg:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // x:aN (cg:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// 'cp' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue May 29 21:02:50 2018] Launched impl_1... Run output will be captured here: C:/Users/admin/Desktop/counter_new/counter_new.runs/impl_1/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 163 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // ah:x (cg:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cg:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// aM:g (cg:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, aM:g)
+// bs:g (aM:g):  Open Server : addNotify

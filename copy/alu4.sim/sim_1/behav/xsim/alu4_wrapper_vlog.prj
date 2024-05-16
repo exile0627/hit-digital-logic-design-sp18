@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_0_0/sim/alu4_util_vector_logic_0_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_0_1/sim/alu4_util_vector_logic_0_1.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_1_0/sim/alu4_util_vector_logic_1_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_0_2/sim/alu4_util_vector_logic_0_2.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_0_3/sim/alu4_util_vector_logic_0_3.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_0_4/sim/alu4_util_vector_logic_0_4.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_1_1/sim/alu4_util_vector_logic_1_1.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_1_2/sim/alu4_util_vector_logic_1_2.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_3_0/sim/alu4_util_vector_logic_3_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_6_0/sim/alu4_util_vector_logic_6_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_9_0/sim/alu4_util_vector_logic_9_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_8_0/sim/alu4_util_vector_logic_8_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_9_1/sim/alu4_util_vector_logic_9_1.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_9_2/sim/alu4_util_vector_logic_9_2.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/ip/alu4_util_vector_logic_11_0/sim/alu4_util_vector_logic_11_0.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/sim/alu4.v" \
+"../../../../alu4.srcs/sources_1/bd/alu4/hdl/alu4_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,3101 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 10204
+License: Customer
+
+Current time: 	Wed Jun 20 20:31:29 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 44 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	think
+User home directory: C:/Users/think
+User working directory: D:/light
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2018.1
+RDI_DATADIR: D:/Vivado/2018.1/data
+RDI_BINDIR: D:/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/think/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/think/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/think/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/light/vivado.log
+Vivado journal file location: 	D:/light/vivado.jou
+Engine tmp dir: 	D:/light/.Xil/Vivado-10204-DESKTOP-92OHQE2
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 550 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: D:\light\alu4.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 62 MB (+62706kb) [00:00:07]
+// [Engine Memory]: 497 MB (+369560kb) [00:00:07]
+// Tcl Message: open_project D:/light/alu4.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 550 MB. GUI used memory: 34 MB. Current time: 6/20/18 8:31:31 PM CST
+// [Engine Memory]: 550 MB (+29799kb) [00:00:12]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 643 MB (+68887kb) [00:00:16]
+// [Engine Memory]: 682 MB (+6520kb) [00:00:19]
+// [GUI Memory]: 68 MB (+2700kb) [00:00:20]
+// Tcl Message: open_project D:/light/alu4.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/think/Desktop/alu4' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/../Desktop'; using path 'C:/Users/think/Desktop' instead. INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/two_four/two_four.srcs/sources_1/new'; using path 'C:/Users/think/Desktop/two_four/two_four.srcs/sources_1/new' instead. INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/three_seven_new/three_seven_new.srcs/sources_1/new'; using path 'C:/Users/think/Desktop/three_seven_new/three_seven_new.srcs/sources_1/new' instead. INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/project_13/project_13.srcs'; using path 'C:/Users/think/Desktop/project_13/project_13.srcs' instead. 
+// Tcl Message: INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/counter/counter.srcs/sources_1/new'; using path 'C:/Users/think/Desktop/counter/counter.srcs/sources_1/new' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/think/Desktop'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 876.398 ; gain = 171.875 
+// Project name: alu4; location: D:/light; part: xc7a35tcsg324-3
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 72 MB (+1164kb) [00:00:28]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// [GUI Memory]: 77 MB (+1394kb) [00:00:29]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1); // B (D, ch)
+// PAPropertyPanels.initPanels (whole.bd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v), whole_i : whole (whole.bd)]", 2, true); // B (D, ch) - Node
+// [GUI Memory]: 81 MB (+159kb) [00:00:32]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v), whole_i : whole (whole.bd)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v), whole_i : whole (whole.bd)]", 2, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// bv (ch):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/light/alu4.srcs/sources_1/bd/whole/whole.bd} 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 777 MB (+63947kb) [00:00:41]
+// [GUI Memory]: 88 MB (+2447kb) [00:00:42]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 89 MB. Current time: 6/20/18 8:32:02 PM CST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 956.270 ; gain = 78.801 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+dismissDialog("Open Block Design"); // bv (ch)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v), whole_i : whole (whole.bd)]", 2, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (ch): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a (ch)
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /whole 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// bv (ch):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files D:/light/alu4.srcs/sources_1/bd/whole/whole.bd] -top 
+// Tcl Message: Wrote  : <D:/light/alu4.srcs/sources_1/bd/whole/whole.bd>  
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 848 MB (+33758kb) [00:00:53]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /whole 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : D:/light/alu4.srcs/sources_1/bd/whole/synth/whole.v VHDL Output written to : D:/light/alu4.srcs/sources_1/bd/whole/sim/whole.v VHDL Output written to : D:/light/alu4.srcs/sources_1/bd/whole/hdl/whole_wrapper.v 
+dismissDialog("Create HDL Wrapper"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /whole 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /whole 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 905 MB (+15647kb) [00:01:04]
+// Tcl Message: generate_target Simulation [get_files D:/light/alu4.srcs/sources_1/bd/whole/whole.bd] 
+// Tcl Message: INFO: [BD 41-1662] The design 'whole.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: VHDL Output written to : D:/light/alu4.srcs/sources_1/bd/whole/synth/whole.v VHDL Output written to : D:/light/alu4.srcs/sources_1/bd/whole/sim/whole.v VHDL Output written to : D:/light/alu4.srcs/sources_1/bd/whole/hdl/whole_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 920 MB. GUI used memory: 52 MB. Current time: 6/20/18 8:32:27 PM CST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file D:/light/alu4.srcs/sources_1/bd/whole/hw_handoff/whole.hwh Generated Block Design Tcl file D:/light/alu4.srcs/sources_1/bd/whole/hw_handoff/whole_bd.tcl Generated Hardware Definition File D:/light/alu4.srcs/sources_1/bd/whole/synth/whole.hwdef 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/light/alu4.srcs/sources_1/bd/whole/whole.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files D:/light/alu4.srcs/sources_1/bd/whole/whole.bd] -directory D:/light/alu4.ip_user_files/sim_scripts -ip_user_files_dir D:/light/alu4.ip_user_files -ipstatic_source_dir D:/light/alu4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/light/alu4.cache/compile_simlib/modelsim} {questa=D:/light/alu4.cache/compile_simlib/questa} {riviera=D:/light/alu4.cache/compile_simlib/riviera} {activehdl=D:/light/alu4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// [GUI Memory]: 93 MB (+368kb) [00:01:27]
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Vivado/2018.1/data/xsim/ip/xsim_ip.ini' copied to run dir:'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'whole_sim' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj whole_sim_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1097.957 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '6' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1097.957 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// TclEventType: FILE_SET_CHANGE
+// 'd' command handler elapsed time: 34 seconds
+// Elapsed time: 34 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 938 MB. GUI used memory: 54 MB. Current time: 6/20/18 8:33:12 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Vivado/2018.1/data/xsim/ip/xsim_ip.ini' copied to run dir:'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'whole_sim' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj whole_sim_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information. 
+// Tcl Message: ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 5 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// [Engine Memory]: 955 MB (+4133kb) [00:02:06]
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// [GUI Memory]: 98 MB (+985kb) [00:02:11]
+// [GUI Memory]: 113 MB (+10319kb) [00:02:11]
+// Tcl Message: report_ip_status -name ip_status  
+// bv (ch):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 976 MB. GUI used memory: 54 MB. Current time: 6/20/18 8:33:37 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 6, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 6, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 6, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Vivado/2018.1/data/xsim/ip/xsim_ip.ini' copied to run dir:'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'whole_sim' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj whole_sim_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 8 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+// Elapsed time: 51 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, whole, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 3, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, whole, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 3, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, whole, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/light/alu4.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 3, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, whole, launch_simulation. , [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ]", 4, false); // ah (O, ch)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation]", 7); // ah (O, ch)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 8); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-426] cannot find port d2 on this module [D:/light/alu4.srcs/sim_1/new/whole_sim.v:51]. ]", 9, true); // ah (O, ch) - Node
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, ch)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /counter_1_Q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /counter_1_Q0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /counter_1_Q1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /counter_1_Q1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_26_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_26_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_29_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_30_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_30_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_20_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_20_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_28_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_28_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_19_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d6 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d4 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, ch)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_36_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_36_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_4_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_4_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_5_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_5_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_5_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_5_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_36_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_36_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_35_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_10_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_18_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Ea_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /cp_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 6, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 6, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "whole_wrapper.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k (j, ch)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /shieng_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_11_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_1_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_6_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_0_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_27_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_37_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_34_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_3_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_3_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_9_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_13_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /S0_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_28_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_28_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_21_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_21_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /fp_even_0_clk_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /util_vector_logic_31_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /decoder_0_d5 
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("whole_wrapper.v", 11, 257); // cd (w, ch)
+selectCodeEditor("whole_wrapper.v", 94, 453, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 8, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, whole_sim (whole_sim.v)]", 8, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("whole_sim.v", 29, 120); // cd (w, ch)
+selectCodeEditor("whole_sim.v", 77, 365, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("whole_sim.v", 283, 191); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("whole_sim.v", 183, 67); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Vivado/2018.1/data/xsim/ip/xsim_ip.ini' copied to run dir:'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'whole_sim' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj whole_sim_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1137.805 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '6' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/light/alu4.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "whole_sim_behav -key {Behavioral:sim_1:Functional:whole_sim} -tclbatch {whole_sim.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: source whole_sim.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 998 MB. GUI used memory: 65 MB. Current time: 6/20/18 8:38:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: # run 10s 
+// [Engine Memory]: 1,014 MB (+11808kb) [00:07:04]
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,014 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:38:28 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 21 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 21 seconds
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,014 MB. GUI used memory: 59 MB. Current time: 6/20/18 8:38:32 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,014 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:33 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 784, 487); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,014 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:36 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 616, 496); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:37 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 63 MB. Current time: 6/20/18 8:38:37 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 579, 488); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:38 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 603, 512); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:40 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 425, 485); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 495, 512); // n (o, ch)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:41 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:41 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 506, 494); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:42 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:42 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 128, 514); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 81 MB. Current time: 6/20/18 8:38:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:45 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 463, 486); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:47 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:48 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 507, 503); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:48 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:38:51 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:55 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:38:59 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:02 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:06 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 19 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 574, 379); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:39:08 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:08 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 649, 410); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:39:09 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:09 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:39:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:11 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:12 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 192, 463); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:14 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 367, 478); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:39:15 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 484, 491); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:16 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:39:17 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 599, 485); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 581, 475); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:18 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 688, 484); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:19 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 799, 500); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:20 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:21 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 828, 470); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 80 MB. Current time: 6/20/18 8:39:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 575, 482); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:24 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 603, 464); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:26 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:28 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:32 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:36 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,021 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:40 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:43 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:47 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:39:51 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:54 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:39:58 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:40:02 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:06 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:10 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:13 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:17 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:21 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:24 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:28 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:32 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:36 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:40 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:43 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:47 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:51 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:40:55 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:40:58 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:02 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:06 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:41:10 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:13 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:41:17 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:41:21 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:41:24 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:28 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:32 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:36 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:39 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:43 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:47 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:41:51 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:41:54 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:41:58 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:02 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:06 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:09 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:13 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:42:17 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:21 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:24 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:28 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:42:32 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:36 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:39 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:42:43 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:47 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:50 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:54 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:42:58 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:02 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:05 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:09 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 63 MB. Current time: 6/20/18 8:43:13 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:16 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:20 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:24 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:28 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:31 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:35 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:39 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:43 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:47 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:50 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:54 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:43:58 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:44:02 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:44:05 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:44:08 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:08 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:09 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:11 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:44:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 64 MB. Current time: 6/20/18 8:44:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:14 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 68 MB. Current time: 6/20/18 8:44:14 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:14 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:14 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:14 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 64 MB. Current time: 6/20/18 8:44:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 60 MB. Current time: 6/20/18 8:44:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:15 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 63 MB. Current time: 6/20/18 8:44:18 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:44:22 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 298 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 61 MB. Current time: 6/20/18 8:44:24 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectButton("HStatusBar_ProgressStatusItem_取消", "取消"); // NullButton (af, ch)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:06:32 ; elapsed = 00:06:07 . Memory (MB): peak = 1147.051 ; gain = 4.660 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Common 17-344] 'run' was cancelled INFO: [Common 17-344] 'source' was cancelled 
+// Tcl Message: xsim: Time (s): cpu = 00:06:36 ; elapsed = 00:06:11 . Memory (MB): peak = 1147.051 ; gain = 9.246 
+// Tcl Message: INFO: [Common 17-344] 'xsim' was cancelled INFO: [Vivado 12-5357] 'simulate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:06:39 ; elapsed = 00:06:21 . Memory (MB): peak = 1147.051 ; gain = 9.246 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+dismissDialog("Run Simulation"); // e (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "whole_wrapper.v", 0); // k (j, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Out-of-Context module run(s) is/are Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Out-of-Context module run(s) is/are Out-of-date"); // A (ch)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run whole_decoder_0_0_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// A (ch): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_2 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: launch_runs synth_2 -jobs 2 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 121 MB (+2750kb) [00:13:35]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP whole_two_three_0_0, cache-ID = e20f7167bf7d7934; cache size = 0.577 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP whole_two_three_0_1, cache-ID = e20f7167bf7d7934; cache size = 0.577 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP whole_decoder_0_0, cache-ID = f9018ed7fc8f2703; cache size = 0.577 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,037 MB. GUI used memory: 62 MB. Current time: 6/20/18 8:44:57 PM CST
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP whole_counter_1_0, cache-ID = 2ea6ee87c8e318b2; cache size = 0.577 MB. INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP whole_util_vector_logic_0_9, cache-ID = 32bccd11138c789a; cache size = 0.577 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 20 20:45:04 2018] Launched synth_2... Run output will be captured here: D:/light/alu4.runs/synth_2/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1168.711 ; gain = 17.230 
+// 'k' command handler elapsed time: 21 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 92 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bv (ch):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_2 -name synth_2 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcsg324-3 
+// [Engine Memory]: 1,117 MB (+54929kb) [00:15:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,155 MB. GUI used memory: 63 MB. Current time: 6/20/18 8:46:42 PM CST
+// [Engine Memory]: 1,229 MB (+59310kb) [00:15:28]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,307 MB. GUI used memory: 63 MB. Current time: 6/20/18 8:46:50 PM CST
+// [Engine Memory]: 1,311 MB (+21032kb) [00:15:30]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: D:/Vivado/2018.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.2s
+// [Engine Memory]: 1,383 MB (+6661kb) [00:15:31]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Parsing XDC File [D:/light/alu4.srcs/constrs_1/new/new.xdc] 
+// Tcl Message: Finished Parsing XDC File [D:/light/alu4.srcs/constrs_1/new/new.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1511.859 ; gain = 343.148 
+// 'dO' command handler elapsed time: 15 seconds
+// M (ch): Critical Messages: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Open Synthesized Design"); // bv (ch)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (ch)
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // be (f, ch)
+// Package: addNotify
+// [Engine Memory]: 1,456 MB (+4562kb) [00:15:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,493 MB. GUI used memory: 94 MB. Current time: 6/20/18 8:47:07 PM CST
+// [Engine Memory]: 1,595 MB (+69615kb) [00:15:52]
+// [Engine Memory]: 1,686 MB (+11210kb) [00:15:53]
+// [Engine Memory]: 1,822 MB (+54128kb) [00:15:53]
+// RouteApi::initDelayMediator elapsed time: 20.7s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (y1) elapsed time: 0.7s
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y1 (1) ; OUT ;  ;  ; true ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3, "y1 (1)", 0, true); // G (O, ch) - Node
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y1 (1) ; OUT ;  ;  ; true ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3); // G (O, ch)
+// [GUI Memory]: 128 MB (+423kb) [00:15:56]
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ch): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// f (ch): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (ch)
+// [GUI Memory]: 137 MB (+3212kb) [00:16:21]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 11 seconds
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bv (ch):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream -jobs 2 
+// Tcl Message: INFO: [Timing 38-480] Writing timing data to binary archive. 
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1967.473 ; gain = 0.000 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 20 20:47:47 2018] Launched impl_2... Run output will be captured here: D:/light/alu4.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 48 seconds
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "y1 (1) ; OUT ;  ;  ; true ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 3); // G (O, ch)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (3) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 9); // G (O, ch)
+// [GUI Memory]: 146 MB (+1536kb) [00:17:19]
+// Elapsed time: 16 seconds
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (3) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 9); // G (O, ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 56 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 34, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,883 MB. GUI used memory: 97 MB. Current time: 6/20/18 8:49:57 PM CST
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bv (ch):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bv)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.1   **** Build date : Apr  4 2018-19:32:53     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// Tcl Message: INFO: [Labtools 27-2058] connect_hw_server command cancelled. INFO: [Common 17-344] 'connect_hw_server' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+dismissDialog("Auto Connect"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 34, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// aM (ch): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, aM)
+// bv (aM):  Open Server : addNotify
+// Elapsed time: 64 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bv)

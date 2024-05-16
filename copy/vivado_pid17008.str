@@ -1,0 +1,104 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 17008
+License: Customer
+
+Current time: 	Sat Jun 16 13:24:25 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 46 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	think
+User home directory: C:/Users/think
+User working directory: C:/Users/think/Desktop/alu4
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2018.1
+RDI_DATADIR: D:/Vivado/2018.1/data
+RDI_BINDIR: D:/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/think/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/think/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/think/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/think/Desktop/alu4/vivado.log
+Vivado journal file location: 	C:/Users/think/Desktop/alu4/vivado.jou
+Engine tmp dir: 	C:/Users/think/Desktop/alu4/.Xil/Vivado-17008-DESKTOP-92OHQE2
+
+GUI allocated memory:	205 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 571 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\think\Desktop\alu4\alu4.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 58 MB (+57853kb) [00:00:07]
+// [Engine Memory]: 504 MB (+377506kb) [00:00:07]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 34 MB. Current time: 6/16/18 1:24:27 PM CST
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 573 MB (+45176kb) [00:00:12]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 607 MB (+6158kb) [00:00:14]
+// [Engine Memory]: 641 MB (+3492kb) [00:00:16]
+// [GUI Memory]: 63 MB (+2201kb) [00:00:16]
+// Tcl Message: open_project C:/Users/think/Desktop/alu4/alu4.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/think/Desktop'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 859.059 ; gain = 124.789 
+// Project name: alu4; location: C:/Users/think/Desktop/alu4; part: xc7z030fbg484-3
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 66 MB (+620kb) [00:00:19]
+// a (ch): Critical Messages: addNotify
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 679 MB (+6606kb) [00:00:23]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 679 MB. GUI used memory: 46 MB. Current time: 6/16/18 1:24:42 PM CST
+// PAPropertyPanels.initPanels (alu4_wrapper.v) elapsed time: 0.2s
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, alu4_wrapper (alu4_wrapper.v)]", 1, true); // B (D, ch) - Node
+// [GUI Memory]: 73 MB (+3647kb) [00:00:40]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, whole_wrapper (whole_wrapper.v)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ch): Launch Runs: addNotify
